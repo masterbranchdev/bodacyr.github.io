@@ -437,3 +437,11 @@ $(function () {
             //seconds
         }, 0)
 }());
+
+
+$('a[data-scroll-nav="8"]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $('#mesa').offset().top - 50 // Ajusta el desplazamiento según tu diseño
+    }, 600);
+});
