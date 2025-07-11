@@ -445,3 +445,24 @@ $('a[data-scroll-nav="8"]').on('click', function(e) {
         scrollTop: $('#mesa').offset().top - 50 // Ajusta el desplazamiento según tu diseño
     }, 600);
 });
+
+
+
+$('div[class="copy-btn"]').on('click', function(e) {
+    // Obtener el texto del número de evento
+    const eventText = document.getElementById('event-number').innerText;
+
+    // Extraer solo el número del texto
+    const eventNumber = eventText.split(': ')[1];
+
+    // Crear un elemento temporal para copiar el texto
+    const tempInput = document.createElement('input');
+    tempInput.value = eventNumber;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+
+    // Notificar al usuario que se copió el texto
+    alert('Número de evento copiado: ' + eventNumber);
+});
