@@ -94,7 +94,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Petit Formal Script", serif;
+    /*font-family: "Petit Formal Script", serif;*/
+    font-family: "Luxurious Script", serif;
     font-weight: 400;
     line-height: 1.2em;
     margin: 0 0 15px 0;
@@ -808,8 +809,8 @@ blockquote cite:before {
     padding: 120px 0;
 }
 .section-title {
-    font-size: 45px;
-    font-family: "Petit Formal Script", serif;
+    font-size: 70px;
+    font-family: "Luxurious Script", serif;
     font-weight: 400;
     color: #000;
     position: relative;
@@ -1047,7 +1048,7 @@ blockquote cite:before {
     text-align: center;
 }
 .logo-wrapper .logo h2 {
-    font-family: "Petit Formal Script", serif;
+    font-family: "Luxurious Script", serif;
     font-size: 24px;
     font-weight: 400;
     display: block;
@@ -1346,18 +1347,22 @@ blockquote cite:before {
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 30px;
+    /*margin-bottom: 0px;*/
     letter-spacing: 2px;
     -webkit-animation-delay: .5s;
     animation-delay: .5s;
 }
 .header .caption h1 {
     position: relative;
-    font-family: "Petit Formal Script", serif;
-    font-size: 90px;
+    /*font-family: "Petit Formal Script", serif;*/
+    font-family: "Luxurious Script", serif;
+    font-size: 110px;
     color: #fff;
     line-height: 1em;
     -webkit-animation-delay: .3s;
     animation-delay: .3s;
+    margin-top: 50px; /*agregado*/
+    margin-bottom: 50px; /*agregado*/
 }
 .header .caption h1 span {
     color: #cb9d55;
@@ -1557,7 +1562,7 @@ blockquote cite:before {
 .parallax-header[data-overlay-dark] h1,
 .parallax-header h1 {
     position: relative;
-    font-family: "Petit Formal Script", serif;
+    font-family: "Luxurious Script", serif;
     font-size: 80px;
     color: #fff;
     line-height: 1.2em;
@@ -1613,7 +1618,7 @@ blockquote cite:before {
 	border-width: 1px 0px 0px;
 }
 .parallax-header ul.marriage {
-    font-family: "Petit Formal Script", serif;
+    font-family: "Luxurious Script", serif;
     font-weight: 400;
     font-size: 90px;
     line-height: 90px;
@@ -1760,7 +1765,7 @@ blockquote cite:before {
 }
 @media screen and (max-width: 991px) {
     .parallax-header ul.marriage {
-    font-family: "Petit Formal Script", serif;
+    font-family: "Luxurious Script", serif;
     font-weight: 400;
     font-size: 60px;
     line-height: 75px;
@@ -1961,7 +1966,7 @@ blockquote cite:before {
   color: #cb9d55;
 }
 .couples .item .wrap .title h4 {
-  font-size: 27px;
+  font-size: 47px;
   margin-bottom: 0;
   color: #fff;
 }
@@ -1972,7 +1977,7 @@ blockquote cite:before {
 
 .couples p span {
 color: #cb9d55;
-font-family: "Petit Formal Script", serif;
+font-family: "Luxurious Script", serif;
 }
 /* heart */
 .couples .heart {
@@ -2045,7 +2050,7 @@ font-family: "Petit Formal Script", serif;
     display: block;
 }
 .story .item .cont .title h3 { 
-    font-size: 24px;
+    font-size: 34px;
     position: relative;
     color: #cb9d55;
 }
@@ -2161,13 +2166,13 @@ font-family: "Petit Formal Script", serif;
     padding-bottom: 5%!important;
 }
 .friends .item .cont .img img {
-    border-radius: 100%;
+    border-radius: 10%;
     margin-bottom: 20px;
 }
 .friends .item .cont .text h5 {
     display: inline-block!important;
-    font-family: "Petit Formal Script", serif;
-    font-size: 20px;
+    font-family: "Luxurious Script", serif;
+    font-size: 30px;
     font-weight: 400;
     color: #000;
     margin-bottom: 5px;
@@ -2235,8 +2240,8 @@ font-family: "Petit Formal Script", serif;
     display: flex;
 }
 .when-where .item .cont .title {
-    font-family: "Petit Formal Script", serif;
-    font-size: 24px;
+    font-family: "Luxurious Script", serif;
+    font-size: 34px;
     font-weight: 400;
     color: #cb9d55;
     margin-bottom: 10px;
@@ -2831,7 +2836,7 @@ height: 100% !important;
 .video-text {
     font-size: 140px;
     line-height: 240px;
-    font-family: "Petit Formal Script", serif;
+    font-family: "Luxurious Script", serif;
     font-weight: 400;
     z-index: 1;
     left: -30px;
@@ -3346,7 +3351,7 @@ height: 100% !important;
 }
 .footer .item {
     position: relative;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 .footer .item.mt-0 {
     margin-top: 0px;
@@ -3375,9 +3380,9 @@ height: 100% !important;
 	border-width: 1px 0px 0px;
 }
 .footer .item ul.marriage {
-    font-family: "Petit Formal Script", serif;
+    font-family: "Luxurious Script", serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 80px;
     line-height: 60px;
     color: #000;
     padding: 0;
@@ -3614,7 +3619,7 @@ height: 100% !important;
 }
 .form2 .head h5 {
     color: #fff;
-    font-size: 32px;
+    font-size: 52px;
     margin-bottom: 0;
 }
 .form2 .head p {
@@ -3860,4 +3865,135 @@ height: 100% !important;
 }
 
 
+.special-vestimenta {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    width: 100%; /* Asegura que el fondo cubra el ancho completo */
+    min-height: 250px; /* Ajusta la altura mínima según tus necesidades */
+    display: flex; /* Permite agregar contenido centrado */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Alineación del texto */
+    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+    /*opacity: 0.4 ; !* El contenido sigue siendo opaco *!*/
+}
 
+.special-vestimenta::after {
+    content: ''; /* Necesario para el pseudo-elemento */
+    position: absolute; /* Posiciona el fondo detrás del contenido */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/protocolo/vestimenta.png') rgba(255, 255, 255, 0.2); /* Fondo con transparencia */
+    background-color: #dfdfdf;
+    background-blend-mode: overlay;
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    z-index: -1; /* Envía el fondo detrás del contenido */
+}
+
+
+.special-adultos {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    width: 100%; /* Asegura que el fondo cubra el ancho completo */
+    min-height: 250px; /* Ajusta la altura mínima según tus necesidades */
+    display: flex; /* Permite agregar contenido centrado */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Alineación del texto */
+    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+    /*opacity: 0.4 ; !* El contenido sigue siendo opaco *!*/
+}
+
+.special-adultos::after {
+    content: ''; /* Necesario para el pseudo-elemento */
+    position: absolute; /* Posiciona el fondo detrás del contenido */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/protocolo/adultos.png') rgba(255, 255, 255, 0.2); /* Fondo con transparencia */
+    background-color: #dfdfdf;
+    background-blend-mode: overlay;
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    z-index: -1; /* Envía el fondo detrás del contenido */
+}
+
+
+.special-invitacion {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    width: 100%; /* Asegura que el fondo cubra el ancho completo */
+    min-height: 250px; /* Ajusta la altura mínima según tus necesidades */
+    display: flex; /* Permite agregar contenido centrado */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Alineación del texto */
+    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+    /*opacity: 0.4 ; !* El contenido sigue siendo opaco *!*/
+}
+
+.special-invitacion::after {
+    content: ''; /* Necesario para el pseudo-elemento */
+    position: absolute; /* Posiciona el fondo detrás del contenido */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/protocolo/invitacion.png') rgba(255, 255, 255, 0.2); /* Fondo con transparencia */
+    background-color: #dfdfdf;
+    background-blend-mode: overlay;
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    z-index: -1; /* Envía el fondo detrás del contenido */
+}
+
+
+.special-recepcion {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    width: 100%; /* Asegura que el fondo cubra el ancho completo */
+    min-height: 250px; /* Ajusta la altura mínima según tus necesidades */
+    display: flex; /* Permite agregar contenido centrado */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Alineación del texto */
+    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+    /*opacity: 0.4 ; !* El contenido sigue siendo opaco *!*/
+}
+
+.special-recepcion::after {
+    content: ''; /* Necesario para el pseudo-elemento */
+    position: absolute; /* Posiciona el fondo detrás del contenido */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/protocolo/recepcion.png') rgba(255, 255, 255, 0.2); /* Fondo con transparencia */
+    background-color: #dfdfdf;
+    background-blend-mode: overlay;
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    z-index: -1; /* Envía el fondo detrás del contenido */
+}
+
+
+.color-content {
+    color: #000000 !important;
+
+}
+
+.spotify-logo-img {
+    border: 5px solid rgb(203, 157, 85); /* Contorno blanco con 40% de transparencia */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    width: 85px;
+    margin-bottom: 0px;
+}
+
+.border {
+    border: 15px solid rgb(203, 157, 85) !important; /* Contorno blanco con 40% de transparencia */
+    border-radius: 10px !important; /* Bordes redondeados (opcional) */
+}
