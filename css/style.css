@@ -806,10 +806,10 @@ blockquote cite:before {
 
 /* ======= Section style ======= */
 .section-padding {
-    padding: 120px 0;
+    padding: 60px 0;
 }
 .section-title {
-    font-size: 70px;
+    font-size: 80px;
     font-family: "Luxurious Script", serif;
     font-weight: 400;
     color: #000;
