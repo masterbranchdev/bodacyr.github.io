@@ -3997,3 +3997,7 @@ height: 100% !important;
     border: 15px solid rgb(203, 157, 85) !important; /* Contorno blanco con 40% de transparencia */
     border-radius: 10px !important; /* Bordes redondeados (opcional) */
 }
+
+.lista {
+    color: #666666 !important;
+}
